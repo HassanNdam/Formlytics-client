@@ -10,38 +10,23 @@ export default function CreateEvent() {
 
       <main className="flex-grow flex flex-col items-center px-4 py-12">
   <h2 className="text-3xl md:text-4xl font-bold mb-8 mt-16 text-center">
-    Créer un Évènement
+    Nous contacter
   </h2>
 
   <form className="w-full max-w-lg p-6  rounded-lg shadow-lg">
-    {/* Titre de l'évènement */}
+    {/* Nom et prénom*/}
     <div className="mb-8">
       <input
         type="text"
-        placeholder="Titre de l'évènement"
+        placeholder="Nom"
         className="w-full p-3 rounded-xl bg-white text-gray-800 placeholder-gray-500"
       />
     </div>
 
-    {/* Date */}
-    <div className="mb-8">
-      <input
-        type="date"
-        className="w-full p-3 rounded-xl bg-white text-gray-800 placeholder-gray-500"
-      />
-    </div>
- {/* Lieu */}
-    <div className="mb-8">
-      <input
-        type="text"
-        placeholder="Lieu"
-        className="w-full p-3 rounded-xl bg-white text-gray-800 placeholder-gray-500"
-      />
-    </div>
-    {/* Description */}
+    {/* Message */}
     <div className="mb-16">
       <textarea
-        placeholder="Description"
+        placeholder="Message"
         rows="4"
         className="w-full p-3 rounded-xl bg-white text-gray-800 placeholder-gray-500 resize-none"
       ></textarea>
@@ -53,7 +38,7 @@ export default function CreateEvent() {
         type="submit"
         className="w-full bg-white text-black font-semibold py-3 rounded-xl hover:bg-gray-200 transition"
       >
-        Créer un évènement
+        ENVOYER
       </button>
     </div>
   </form>

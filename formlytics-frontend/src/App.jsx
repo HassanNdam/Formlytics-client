@@ -4,6 +4,7 @@ import Home from './pages/Home';
 import CreateEvent from './pages/CreateEvent';
 import CreateTemplate from './pages/CreateTemplate';
 import FillQuestionnaire from './pages/FillQuestionnaire';
+import Contact from './pages/Contact';
 
 export default function App() {
   return (
@@ -13,6 +14,7 @@ export default function App() {
         <Route path="/create-event" element={<CreateEvent />} />
         <Route path="/create-template" element={<CreateTemplate />} />
         <Route path="/fill-questionnaire" element={<FillQuestionnaire />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
     </Router>
   );

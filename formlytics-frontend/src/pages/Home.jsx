@@ -1,4 +1,5 @@
-import React from 'react';  // ← Nécessaire pour utiliser JSX
+import React from 'react';  
+import { Link } from 'react-router-dom';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 
@@ -12,7 +13,7 @@ export default function Home() {
            CRÉER ET GÉRER VOS <br />ÉVÉNEMENTS AVEC FORMLYTICS
        </h1>  
       <button className="bg-blue-500 text-dark px-6 py-2 rounded hover:bg-blue-600 transition mb-16 mt-4">
-        Se connecter
+        <Link to="/create-event" className='text-dark'>Se connecter</Link> 
       </button>
       <section className="w-full px-4 py-12 bg-dark text-white">
       <h2 className="text-4xl md:text-5xl font-bold text-center text-white mb-12">
@@ -38,7 +39,7 @@ export default function Home() {
           <p className="text-xl text-white font-semibold">Personnalisation poussée</p>
         </div>
       </div>
-    </section>
+     </section>
     </main>
 
     <Footer />
