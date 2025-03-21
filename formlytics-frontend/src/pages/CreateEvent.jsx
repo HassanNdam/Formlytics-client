@@ -4,7 +4,7 @@ import Footer from '../components/Footer';
 export default function CreateEvent() {
   return (
     <>
-      <Header userName="Alice" />
+      <Header userName="Kevin Glass" />
       <main className="max-w-xl mx-auto mt-10 p-4">
         <h2 className="text-2xl font-bold mb-4">Créer un Évènement</h2>
         <form className="flex flex-col space-y-4">
